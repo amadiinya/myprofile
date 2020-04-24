@@ -1,0 +1,155 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height:1.6em;
+  background-color: lightgray;
+  width: 95%;
+
+}
+
+.clr{clear: both;
+
+}
+.img{
+width: 200px;
+float: right;
+border: turquoise solid 2px;
+border-radius: 10%;
+ 
+}
+
+.h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+
+.inya{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-style: inherit;
+    line-height:0.7em;
+    font-weight: bolder;
+}
+.who2{
+  background-color: mediumaquamarine;
+  color:black;
+  font-weight: lighter;
+  
+}
+h1{
+  background-color: mediumaquamarine;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+ 
+
+.What-i-do{
+  text-align: center;
+  color: mediumaquamarine;
+}
+.skills h2{
+  text-align: center;
+  background-color: mediumaquamarine;
+color: white;
+}
+
+.skills ul{
+  padding: 30px;
+  
+}
+
+.skills li{
+  border-bottom: dashed 1px #333333;
+  
+  padding-bottom: 8px;
+  list-style: square;
+}
+
+.myform{
+  padding:20px
+}
+.myform .form-group{
+  padding-bottom: 15px;
+}
+
+.myform label{
+  display: block;
+}
+
+.myform input[type='text'], .myform textarea{
+  padding:8px;
+  width: 100%;
+  border-bottom: mediumturquoise solid 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.myform input[type='number']{
+  padding:8px;
+  width: 100%;
+  border-bottom: mediumturquoise solid 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.myform input[type='submit']{
+  border: none;
+  background-color: mediumturquoise;
+  color: white;
+  padding: 10px 15px;
+}
+.myform input[type='submit']:hover{
+  background-color: darkgreen;
+  color:mediumaquamarine;
+}
+.flow{
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #1f2833;
+  background-size: 100%;
+  color: white;
+  
+
+}
+.flow h2{
+  color: mediumaquamarine;
+}
+
+.con{
+  background-color: #1f2833;
+  overflow: hidden;
+}
+
+.form-box{
+  width: 50%;
+  border: solid 1px green;
+  border-radius: 10px;
+  align:center;
+
+}
+
+.container{
+  text-align: justify;
+}
+  
+
+  @media(max-width:600px){
+    .flow{
+      width: 100%;
+      float: none;
+      
+    }
+  }
+
+ 
